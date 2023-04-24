@@ -9,7 +9,7 @@ import {
 
 export function WhyChooseUs() {
     return (
-        <section className="flex flex-col items-center justify-center gap-10 bg-dark-50 p-6 py-12 font-title md:gap-20 md:py-24">
+        <section className="flex flex-col items-center justify-center gap-10 bg-dark-50 p-6 py-12 font-title md:gap-20 md:px-48 md:py-24">
             <h2 className="text-center text-5xl font-bold">Why Choose Us?</h2>
             <div className="flex max-w-7xl flex-col items-center justify-center gap-10 md:flex-row">
                 <IconCard Icon={FaHistory} title="Expertise">

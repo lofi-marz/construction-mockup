@@ -7,6 +7,8 @@ import { Nav } from '@/components/Nav/Nav';
 import { ScrollingText } from '@/components/ScrollingText';
 import { Footer } from '@/components/Footer';
 import { WhyChooseUs } from 'components/WhyChooseUs';
+import { About } from '@/components/About';
+import { Numbers } from '@/components/Numbers/Numbers';
 
 export default function Home() {
     return (
@@ -23,6 +25,8 @@ export default function Home() {
             <div className="z-50 flex h-full w-full flex-col">
                 <Hero />
                 <ScrollingText />
+                <About />
+                <Numbers />
                 <WhyChooseUs />
                 <Contact />
                 <Footer />
