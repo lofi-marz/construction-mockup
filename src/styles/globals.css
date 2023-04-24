@@ -3,6 +3,26 @@
 @tailwind utilities;
 
 
+@layer components {
+    .button {
+        @apply box-border;
+    }
+
+    .button-border {
+        @apply button border border-dark-50 transition-all hover:border-transparent;
+    }
+    .button-solid-colour {
+        @apply button bg-primary text-dark-50 transition-all;
+    }
+    .button-solid-dark {
+        @apply button bg-dark-950 text-dark-50 transition-all;
+    }
+
+    .button-solid-light {
+        @apply button bg-dark-50 text-dark-950 transition-all;
+    }
+}
+
 @layer utilities {
     .text-gradient {
         @apply bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent !important
